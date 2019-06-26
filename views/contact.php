@@ -6,17 +6,17 @@
         <span class="text-secondary">Me</span>
       </h1>
       <h2 class="sm-heading">
-        This is how you can reach me...
+        This is how you can email me
       </h2>
-      <div class="boxes">
-        <div>
-          <span class="text-secondary">Email: </span>
-          pierre.lecorffpro@gmail.com
-        </div>
-        <div>
-          <span class="text-secondary">Phone: </span> (+33) 6 52 33 61 53
-        </div>
-      </div>
+
+      <form action="./contact-form.php" class="form-control" method="post">
+        <input type="text" name="name" placeholder="Your name">
+        <input type="text" name="mail" placeholder="Your e-mail">
+        <input type="text" name="subject" placeholder="The subject">
+        <textarea name="msg" placeholder="Your message"></textarea>
+        <button class="text-secondary" type="submit" name="submit">Send Mail</button>
+      </form>
+    
     </main>
 
 <?php include('../models/footer.php');?>
