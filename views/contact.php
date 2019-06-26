@@ -7,7 +7,7 @@
       </h1>
 
       <div class="containerr">
-        <form action="contact-form.php">
+        <form action="contact-form.php" method="post">
 
           <label class="dText" for="name">Your Name</label>
           <input type="text" name="name" placeholder="Your name..">
