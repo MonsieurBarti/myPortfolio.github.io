@@ -13,3 +13,5 @@
         mail($mailTo, $subject, $txt, $headers);
         header("Location: ./main.php?mailsend");
     }
+
+?>
