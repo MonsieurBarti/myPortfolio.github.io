@@ -384,7 +384,7 @@ textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type="submit"] {
+button[type="submit"] {
   background-color: #eece1a;
   color: black;
   padding: 12px 20px;
