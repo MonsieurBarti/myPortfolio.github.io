@@ -21,8 +21,7 @@
           <label class="dText" for="msg">Message</label>
           <textarea id="subject" name="msg" placeholder="Write something.." style="height:200px"></textarea>
 
-          <input class="dText" type="submit" value="Submit" name="submit">
-
+          <button type="submit" name="submit">Send Mail</button>
         </form>
       </div>
     
