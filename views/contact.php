@@ -6,7 +6,7 @@
         <span class="text-secondary">Me</span>
       </h1>
 
-      <form class="boilerform" action="" method="post">
+      <form class="boilerform" action="./contact-form.php" method="post">
         <fieldset class="c-form">
             <div class="c-form__row">
                 <label for="name" class="c-label">Name</label>
