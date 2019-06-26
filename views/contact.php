@@ -9,19 +9,19 @@
       <div class="containerr">
         <form action="./contact-form.php">
 
-          <label for="name">Your Name</label>
+          <label class="dText" for="name">Your Name</label>
           <input type="text" name="name" placeholder="Your name..">
 
-          <label for="email">Your e-mail</label>
+          <label class="dText" for="email">Your e-mail</label>
           <input type="text" name="email" placeholder="Your e-mail..">>
 
-          <label for="subject">Subject</label>
+          <label class="dText" for="subject">Subject</label>
           <input type="text" name="subject" placeholder="The subject..">
 
-          <label for="msg">Message</label>
+          <label class="dText" for="msg">Message</label>
           <textarea id="subject" name="msg" placeholder="Write something.." style="height:200px"></textarea>
 
-          <input type="submit" value="Submit" name="submit">
+          <input class="dText" type="submit" value="Submit" name="submit">
 
         </form>
       </div>
