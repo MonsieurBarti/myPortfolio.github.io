@@ -5,16 +5,25 @@
         Contact
         <span class="text-secondary">Me</span>
       </h1>
-      <h2 class="sm-heading">
-        This is how you can email me
-      </h2>
 
-      <form action="./contact-form.php" class="form-control" method="post">
-        <input type="text" name="name" placeholder="Your name">
-        <input type="text" name="mail" placeholder="Your e-mail">
-        <input type="text" name="subject" placeholder="The subject">
-        <textarea name="msg" placeholder="Your message"></textarea>
-        <button class="text-secondary" type="submit" name="submit">Send Mail</button>
+      <form class="boilerform" action="" method="post">
+        <fieldset class="c-form">
+            <div class="c-form__row">
+                <label for="name" class="c-label">Name</label>
+                <input type="text" name="name" id="name" class="c-input-field" value="" autocorrect="off" required />
+            </div>
+            <div class="c-form__row">
+                <label for="email" class="c-label">Email</label>
+                <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" class="c-input-field" required />
+            </div>
+            <div class="c-form__row">
+                <label for="message" class="c-label">Your message</label>
+                <textarea name="msg" id="message" class="c-input-field c-input-field--multiline" rows="10"></textarea>
+            </div>
+            <div class="c-form__row">
+                <button class="c-button" type="submit" name="submit">Submit</button>    
+            </div>
+          </fieldset>
       </form>
     
     </main>
