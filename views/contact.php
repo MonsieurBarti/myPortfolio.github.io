@@ -6,25 +6,25 @@
         <span class="text-secondary">Me</span>
       </h1>
 
-      <form class="boilerform" action="./contact-form.php" method="post">
-        <fieldset class="c-form">
-            <div class="c-form__row">
-                <label for="name" class="c-label">Name</label>
-                <input type="text" name="name" id="name" class="c-input-field" value="" autocorrect="off" required />
-            </div>
-            <div class="c-form__row">
-                <label for="email" class="c-label">Email</label>
-                <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" class="c-input-field" required />
-            </div>
-            <div class="c-form__row">
-                <label for="message" class="c-label">Your message</label>
-                <textarea name="msg" id="message" class="c-input-field c-input-field--multiline" rows="10"></textarea>
-            </div>
-            <div class="c-form__row">
-                <button class="c-button" type="submit" name="submit">Submit</button>    
-            </div>
-          </fieldset>
-      </form>
+      <div class="containerr">
+        <form action="./contact-form.php">
+
+          <label for="name">Your Name</label>
+          <input type="text" name="name" placeholder="Your name..">
+
+          <label for="email">Your e-mail</label>
+          <input type="text" name="email" placeholder="Your e-mail..">>
+
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" placeholder="The subject..">
+
+          <label for="msg">Message</label>
+          <textarea id="subject" name="msg" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit" name="submit">
+
+        </form>
+      </div>
     
     </main>
 
