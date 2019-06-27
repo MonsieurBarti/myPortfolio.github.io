@@ -9,7 +9,7 @@
         Web Developer, Programmer & Entrepreneur
       </h2>
       <div class="icons">
-        <a href="https://www.malt.fr/profile/pierrelecofff">
+        <a href="https://5euros.com/profil/monkeydbarti">
           <i class="fas fa-code fa-2x"></i>
         </a>
         <a href="https://www.instagram.com/pierrelecorff/">
